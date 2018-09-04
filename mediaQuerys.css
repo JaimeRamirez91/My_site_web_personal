@@ -1,0 +1,1195 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    .navbar-nav {
+        float:none;
+        margin:0 auto;
+        display: block;
+        text-align: center;
+        }
+       .navbar-nav > li {
+        display: inline-block;
+        float:none;
+        }
+        .activeCustom{
+        background-color: #2895f1 !important;
+        color: white !important;
+        margin: 0 auto;
+        }
+       
+        #jumbotron{
+           border:solid 1px #E6E6E6;
+            border-left: none; 
+            border-right: none;
+            border-bottom: none;
+             height: 50px; 
+             position: relative;
+              background: none;
+        }
+        #cabesera{
+          position: absolute; 
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            top: 0;
+            bottom:0;
+            left: 0;
+            right:0; 
+            background: none; 
+            height: 40px;
+        }
+        #listaleft{
+            float: left;
+        }
+        #listarigt{
+            float: right;
+        }
+        h5{
+           display:inline-block; 
+           vertical-align:middle;
+           line-height:normal;
+        }
+        a{
+           text-decoration: none;
+        }
+    #particles-js{
+        position: relative;
+        background-color: none;
+        height: 400px;
+    }
+    #contenedor-baner-lg{
+        /*cnt hijo*/
+        position: absolute;
+        background-color: none;
+        /*center horizontal*/
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        /*ancho*/
+        width: 80%;
+        /*center vertical*/
+        margin-top: auto;
+        margin-bottom: auto;
+        top:0;
+        bottom: 0;
+        height: 400px;
+    }
+    #contenedor-imagen-lg{
+        background-color: none;
+        line-height: 400px;
+    }
+    #contenedor-texto-bener-lg{
+        background-color: white;
+        height: 200px;
+        margin-top: 120px;
+        border-radius: 30px;
+       
+    }
+    #botones-leyenda{
+        background-color: none;
+        width: 88%;
+        float: left;
+     }
+     #botones-leyenda #btn-contacar{
+        float: left;
+     } 
+     #botones-leyenda #btn-info{
+        float: right;
+    }
+    
+ 
+/*
+   #contenedor-tema h1{
+        
+        background-color: none;
+        font-size: 26px;
+        text-align: center;
+        font-family:  'Bold';
+    }
+#leyenda h4{
+    background-color: none;
+    font-size: 18px;
+    text-align: center;
+  
+}
+#botones-leyenda{
+   background-color: none;
+   width: 80%;
+   margin: 0 auto;
+} 
+#botones-leyenda #btn-contacar{
+    float: left;
+ } 
+ #botones-leyenda #btn-info{
+    float: right;
+ }*/
+ h1 { 
+    font-family: monospace !important; 
+    position: relative; 
+    float: left;
+    background: none;
+    color: rgb(14, 3, 3);
+    font-size: 2.5em;
+  
+  }
+  h1 span {
+      position:absolute;
+      right:0;
+      width:0;
+      background: white;
+      border-left: 3px solid #000;
+      animation: escribir 20s steps(37) infinite alternate;
+  }
+    
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-nav {
+        float:none;
+        margin:0 auto;
+        display: block;
+        text-align: center;
+        }
+       .navbar-nav > li {
+        display: inline-block;
+        float:none;
+        }
+        .activeCustom{
+        background-color: #2895f1 !important;
+        color: white !important;
+        margin: 0 auto;
+        }
+       
+        #jumbotron{
+           border:solid 1px #E6E6E6;
+            border-left: none; 
+            border-right: none;
+            border-bottom: none;
+             height: 50px; 
+             position: relative;
+              background: none;
+        }
+        #cabesera{
+          position: absolute; 
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            top: 0;
+            bottom:0;
+            left: 0;
+            right:0; 
+            background: none; 
+            height: 40px;
+        }
+        #listaleft{
+            float: left;
+        }
+        #listarigt{
+            float: right;
+        }
+        h5{
+           display:inline-block; 
+           vertical-align:middle;
+           line-height:normal;
+        }
+        a{
+           text-decoration: none;
+        }
+    #particles-js{
+        position: relative;
+        background-color: none;
+        height: 400px;
+    }
+    #contenedor-baner-lg{
+        /*cnt hijo*/
+        position: absolute;
+        background-color: none;
+        /*center horizontal*/
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        /*ancho*/
+        width: 80%;
+        /*center vertical*/
+        margin-top: auto;
+        margin-bottom: auto;
+        top:0;
+        bottom: 0;
+        height: 400px;
+    }
+    #contenedor-imagen-lg{
+        background-color: none;
+        line-height: 400px;
+    }
+    #contenedor-texto-bener-lg{
+        background-color: white;
+        height: 200px;
+        margin-top: 120px;
+        border-radius: 30px;
+       
+    }
+    #botones-leyenda{
+        background-color: none;
+        width: 88%;
+        float: left;
+     }
+     #botones-leyenda #btn-contacar{
+        float: left;
+     } 
+     #botones-leyenda #btn-info{
+        float: right;
+    }
+    h1 { 
+        font-family: monospace !important; 
+        position: relative; 
+        float: left;
+        background: none;
+        color: rgb(14, 3, 3);
+        font-size: 2em;
+      
+      }
+      h1 span {
+          position:absolute;
+          right:0;
+          width:0;
+          background: white;
+          border-left: 3px solid #000;
+          animation: escribir 20s steps(37) infinite alternate;
+      }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+        float:none;
+        margin:0 auto;
+        display: block;
+        text-align: center;
+    }
+       .navbar-nav > li {
+        display: inline-block;
+        float:none;
+        }
+        .activeCustom{
+        background-color: #2895f1 !important;
+        color: white !important;
+        margin: 0 auto;
+        }
+       .HoverColor:hover{
+        background-color: #2895f1 !important;
+        color: white !important;
+        }  
+      
+        #jumbotron{
+           border:solid 1px #E6E6E6;
+            border-left: none; 
+            border-right: none;
+            border-bottom: none;
+             height: 50px; 
+             position: relative;
+              background: none;
+        }
+        #cabesera{
+          position: absolute; 
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            top: 0;
+            bottom:0;
+            left: 0;
+            right:0; 
+            background: none; 
+            height: 40px;
+        }
+        #listaleft{
+            float: left;
+        }
+        #listarigt{
+            float: right;
+        }
+        h5{
+           display:inline-block; 
+           vertical-align:middle;
+           line-height:normal;
+        }
+        a{
+           text-decoration: none;
+        }
+        
+        .hidden-md{
+            display: none;
+        }
+        .ocultar{
+            display: none;
+        } 
+    
+        #particles-js{
+            position: relative;
+            background-color: none;
+            height: 8cm;
+        }
+        #contenedor-baner-lg{
+            /*cnt hijo*/
+            position: absolute;
+            background-color: none;
+            /*center horizontal*/
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            /*ancho*/
+            width: 80%;
+            /*center vertical*/
+            margin-top: auto;
+            margin-bottom: auto;
+            top:0;
+            bottom: 0;
+        }
+        #contenedor-imagen-lg, #imagen-lg{
+            background-color: none;
+            height: 88px;
+            margin-top: 3%;
+            margin-bottom:2%;
+            
+        }
+        #contenedor-texto-bener-lg{
+            background-color: none;
+        }
+        #contenedor-tema{
+                background-color: none;
+        }
+        #contenedor-tema h1{
+            
+                background-color: none;
+                font-size: 26px;
+                text-align: center;
+                font-family:  'Bold';
+            }
+       #leyenda h4{
+            background-color: none;
+            font-size: 18px;
+            text-align: center;
+          
+        }
+        #botones-leyenda{
+           background-color: none;
+           width: 80%;
+           margin: 0 auto;
+        } 
+        #botones-leyenda #btn-contacar{
+            float: left;
+         } 
+         #botones-leyenda #btn-info{
+            float: right;
+         }       
+} 
+@media (max-width: 767px) {
+    .navbar-nav {
+        float:none !important;
+        margin:0 auto !important;
+        display: block !important;
+        text-align: center !important;
+    }
+    #menu{
+        border: solid 1px #BFC9C4 !important; 
+        }
+    .activeCustom{
+        background-color: #2895f1 !important;
+        color: white !important;
+        margin: 0 auto !important;    }
+    .HoverColor:hover{
+        background-color: #2895f1 !important;
+        color: white !important;
+        }
+          
+    #jumbotron{
+       border:solid 1px #E6E6E6 !important;
+        border-left: none !important; 
+        border-right: none !important;
+        border-bottom: none !important;
+         height: 50px !important; 
+         position: relative !important;
+          background: none !important;
+    }
+    #cabesera{
+      position: absolute !important; 
+        margin-top: auto !important;
+        margin-bottom: auto !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        top: 0 !important;
+        bottom:0 !important;
+        left: 0 !important;
+        right:0 !important; 
+        background: none !important; 
+        height: 40px !important;
+    }
+    #listaleft{
+        float: left !important;
+    }
+    #listarigt{
+        float: right !important;
+    }
+    #leyenda{
+        width: 400px !important;
+       margin: 0 auto !important;
+    }
+    h5{
+       display:inline-block !important; 
+       vertical-align:middle !important;
+       line-height:normal !important;
+    }
+    a{
+       text-decoration: none !important;
+    }
+    #particles-js{
+        position: relative;
+        background-color: none;
+        height: 8cm;
+    }
+    #contenedor-baner-lg{
+        /*cnt hijo*/
+        position: absolute;
+        background-color: none;
+        /*center horizontal*/
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        /*ancho*/
+        width: 80%;
+        /*center vertical*/
+        margin-top: auto;
+        margin-bottom: auto;
+        top:0;
+        bottom: 0;
+    }
+    #contenedor-imagen-lg, #imagen-lg{
+        background-color: none;
+        height: 88px;
+        margin-top: 3%;
+        margin-bottom:2%;
+        
+    }
+    #contenedor-texto-bener-lg{
+        background-color: none;
+    }
+    #contenedor-tema{
+            background-color: none;
+    }
+    #contenedor-tema h1{
+        
+            background-color: none;
+            font-size: 26px;
+            text-align: center;
+            font-family:  'Bold';
+        }
+   #leyenda h4{
+        background-color: none;
+        font-size: 18px;
+        text-align: center;
+      
+    }
+    #botones-leyenda{
+       background-color: none;
+       width: 80%;
+       margin: 0 auto;
+    } 
+    #botones-leyenda #btn-contacar{
+        float: left;
+     } 
+     #botones-leyenda #btn-info{
+        float: right;
+     }       
+    
+   
+}
+/*
+@media (min-width: 1200px) {
+
+  .navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    }
+   .navbar-nav > li {
+    display: inline-block;
+    float:none;
+    }
+    .activeCustom{
+    background-color: #2895f1 !important;
+    color: white !important;
+    margin: 0 auto;
+    }
+   
+    #jumbotron{
+       border:solid 1px #E6E6E6;
+        border-left: none; 
+        border-right: none;
+        border-bottom: none;
+         height: 50px; 
+         position: relative;
+          background: none;
+    }
+    #cabesera{
+      position: absolute; 
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        top: 0;
+        bottom:0;
+        left: 0;
+        right:0; 
+        background: none; 
+        height: 40px;
+    }
+    #listaleft{
+        float: left;
+    }
+    #listarigt{
+        float: right;
+    }
+    h5{
+       display:inline-block; 
+       vertical-align:middle;
+       line-height:normal;
+    }
+    a{
+       text-decoration: none;
+    }
+    #particles-js{
+        position: relative;
+        height: 300px;
+        margin: 0 auto;
+        background: none;
+    } 
+    #contenedor-baner-lg{
+        width: 900px; 
+        height: 200px;
+        background: none;
+        position: absolute;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        left:0;
+        right:0;
+        top: 0;
+        bottom:0;
+    }
+    .contenedor {
+    margin-left: 0px;
+    width: 500px;
+    }
+    #contenedor-imagen-lg{
+       padding: 0px;
+    }
+     #imagen-lg{
+      padding: 6px;
+    }
+     #contenedor-texto-bener-lg{
+      text-align: center;
+      height: 200px;    
+     }
+
+     #texto-oferta{
+      margin-bottom: 30px;  
+     }
+
+      #contenedor1{
+     background:none; height: 200px;  
+     }
+     #img1oferta{
+      margin-top: 5px; 
+      margin-bottom: 10px; 
+      width: 100px; 
+     }
+     #img1oferta2{
+      margin-top: 5px; 
+      margin-bottom: 10px; 
+      width: 150px; 
+     }
+
+      #texto1{
+     width: 290px; 
+     margin: 0 auto; 
+     background: none;
+     }
+
+      #contenedor2{
+     background:none; height: 200px;  
+     }
+     #img2oferta{
+      margin-top: 5px; 
+      margin-bottom: 10px; 
+      width: 100px; 
+     }
+     #img2oferta2{
+      margin-top: 5px; 
+      margin-bottom: 10px; 
+      width: 150px; 
+     }
+     #texto2{
+     width: 290px; 
+     margin: 0 auto; 
+     background: none;
+     }
+     #contenedor3{
+     background:none; height: 200px;  
+     }
+     #img3oferta{
+     margin: 10px;
+      width: 100px; 
+     }
+      #img3oferta{
+     margin: 10px;
+     width: 100px; 
+     }
+     #texto3{
+     width: 290px; 
+     margin: 0 auto; 
+     background: none;
+     }
+    
+
+     #leyenda{
+       width: 450px;
+      text-align: left;
+      }
+     #botones-leyenda{
+        float: left; margin-top:10px;
+     }
+   
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+   .navbar-nav > li {
+    display: inline-block;
+    float:none;
+    }
+       .activeCustom{
+    background-color: #2895f1 !important;
+    color: white !important;
+    margin: 0 auto;
+    }
+ 
+    #jumbotron{
+       border:solid 1px #E6E6E6;
+        border-left: none; 
+        border-right: none;
+        border-bottom: none;
+         height: 50px; 
+         position: relative;
+          background: none;
+    }
+    #cabesera{
+      position: absolute; 
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        top: 0;
+        bottom:0;
+        left: 0;
+        right:0; 
+        background: none; 
+        height: 40px;
+    }
+    #listaleft{
+        float: left;
+    }
+    #listarigt{
+        float: right;
+    }
+    h5{
+       display:inline-block; 
+       vertical-align:middle;
+       line-height:normal;
+    }
+    a{
+       text-decoration: none;
+    }
+     
+    #particles-js{
+    background-color: none;
+    margin: 0 auto;
+    height: 250px;
+    position: relative;
+}
+
+    .ocultar{
+        display: none;
+    } 
+    #contenedor-baner-lg{
+        width: 700px; 
+        height: 200px;
+        background: none;
+        position: absolute;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        left:0;
+        right:0;
+        top: 0;
+        bottom:0;
+    }
+    #contenedor-imagen-lg{
+       padding: 0px;
+    }
+     #imagen-lg{
+      padding: 6px;
+    }
+     #contenedor-texto-bener-lg{
+      text-align: center;    
+     }
+   
+     #texto-oferta{
+      margin-bottom: 30px;  
+     }
+      .contenedor {
+    margin-left: 0px;
+    width: 410px;
+    
+    }
+      #contenedor1{
+     background:none; height: 200px;  
+     }
+     #img1oferta{
+      margin-top: 5px; 
+      margin-bottom: 10px; 
+      width: 100px; 
+     }
+
+      #texto1{
+     width: 290px; 
+     margin: 0 auto; 
+     background: none;
+     }
+
+      #contenedor2{
+     background:none; height: 200px;  
+     }
+     #img2oferta{
+      margin-top: 5px; 
+      margin-bottom: 10px; 
+      width: 100px; 
+     }
+     #texto2{
+     width: 290px; 
+     margin: 0 auto; 
+     background: none;
+     }
+     #contenedor3{
+     background:none; height: 200px;  
+     }
+     #img3oferta{
+     margin: 10px;
+      width: 100px; 
+     }
+     #texto3{
+     width: 290px; 
+     margin: 0 auto; 
+     background: none;
+     }
+
+
+      #leyenda{
+       width: 400px;
+      text-align: left;
+      }
+      #botones-leyenda{
+        float: left; margin-top:10px;
+     }
+} 
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+ .navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+   .navbar-nav > li {
+    display: inline-block;
+    float:none;
+    }
+    .activeCustom{
+    background-color: #2895f1 !important;
+    color: white !important;
+    margin: 0 auto;
+    }
+   .HoverColor:hover{
+    background-color: #2895f1 !important;
+    color: white !important;
+    }  
+  
+    #jumbotron{
+       border:solid 1px #E6E6E6;
+        border-left: none; 
+        border-right: none;
+        border-bottom: none;
+         height: 50px; 
+         position: relative;
+          background: none;
+    }
+    #cabesera{
+      position: absolute; 
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        top: 0;
+        bottom:0;
+        left: 0;
+        right:0; 
+        background: none; 
+        height: 40px;
+    }
+    #listaleft{
+        float: left;
+    }
+    #listarigt{
+        float: right;
+    }
+    h5{
+       display:inline-block; 
+       vertical-align:middle;
+       line-height:normal;
+    }
+    a{
+       text-decoration: none;
+    }
+    
+    .hidden-md{
+        display: none;
+    }
+    .ocultar{
+        display: none;
+    } 
+    #particles-js{
+    background-color: none;
+    margin: 0 auto;
+    height: 300px;
+    position: relative;
+    text-align: center;
+   
+}
+
+        #contenedor-baner-lg{
+        width: 700px; 
+        height: 260px;
+        background: none;
+        position: absolute;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        left:0;
+        right:0;
+        top: 0;
+        bottom:0;
+        
+    }
+    #contenedor-imagen-lg{
+       padding: 0px;
+    }
+     #imagen-lg{
+      width: 20%;
+    }
+     #contenedor-texto-bener-lg{
+      text-align: center;    
+     }
+   
+     #texto-oferta{
+      margin-bottom: 30px;  
+     }
+
+      #contenedor1{
+     background:none; height: 200px;  
+     }
+     #img1oferta{
+      margin-top: 5px; 
+      margin-bottom: 10px; 
+      width: 100px; 
+     }
+
+      #texto1{
+     width: 230px; 
+     margin: 0 auto; 
+     background: none;
+     }
+
+      #contenedor2{
+     background:none; height: 200px;  
+     }
+     #img2oferta{
+      margin-top: 5px; 
+      margin-bottom: 10px; 
+      width: 100px; 
+     }
+     #texto2{
+     width: 230px; 
+     margin: 0 auto; 
+     background: none;
+     }
+     #contenedor3{
+     background:none; height: 200px;  
+     }
+     #img3oferta{
+     margin: 10px;
+      width: 100px; 
+     }
+     #texto3{
+     width: 230px; 
+     margin: 0 auto; 
+     background: none;
+     }
+
+ 
+     #leyenda{
+        width: 500px;
+       margin: 0 auto;
+    }
+   
+
+}
+
+
+
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        float:none !important;
+        margin:0 auto !important;
+        display: block !important;
+        text-align: center !important;
+    }
+    #menu{
+        border: solid 1px #BFC9C4 !important; 
+        }
+    .activeCustom{
+        background-color: #2895f1 !important;
+        color: white !important;
+        margin: 0 auto !important;    }
+    .HoverColor:hover{
+        background-color: #2895f1 !important;
+        color: white !important;
+        }
+          
+    #jumbotron{
+       border:solid 1px #E6E6E6 !important;
+        border-left: none !important; 
+        border-right: none !important;
+        border-bottom: none !important;
+         height: 50px !important; 
+         position: relative !important;
+          background: none !important;
+    }
+    #cabesera{
+      position: absolute !important; 
+        margin-top: auto !important;
+        margin-bottom: auto !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        top: 0 !important;
+        bottom:0 !important;
+        left: 0 !important;
+        right:0 !important; 
+        background: none !important; 
+        height: 40px !important;
+    }
+    #listaleft{
+        float: left !important;
+    }
+    #listarigt{
+        float: right !important;
+    }
+    #leyenda{
+        width: 400px !important;
+       margin: 0 auto !important;
+    }
+    h5{
+       display:inline-block !important; 
+       vertical-align:middle !important;
+       line-height:normal !important;
+    }
+    a{
+       text-decoration: none !important;
+    }
+     
+    #particles-js{
+        background-color: #0f3e64 !important;
+        margin: 0 auto !important;
+        height: 100% !important;
+        position: relative !important;
+        text-align: center !important;
+       margin-top: -10px !important;
+    }
+     #contenedor-baner-lg{
+        height: 90%;
+        width: 80%;
+        background-color:red;
+        position: absolute;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        left:0;
+        right:0;
+        top: 0;
+        bottom:0;
+       
+    }
+    #contenedor-imagen-lg{
+        background-color: #616A6B;
+        margin-top: 3%;
+    }
+    #botones-leyenda{
+        background-color: aqua;
+        width: 100%;
+    }
+    #botones-leyenda button{
+        background-color: aqua;
+        width: 120px;
+        height: 30px;
+        font-size: 12px;
+        margin-bottom: 3%;
+    }
+    #contenedor{
+      float: center;
+    }
+    #contenedor-imagen-lg{
+       padding: 0px;
+    }
+
+     #imagen-lg{
+      width: 20%;
+    }
+     #contenedor-texto-bener-lg{
+      text-align: center;    
+     }
+    
+     #texto-oferta{
+      margin-bottom: 30px;  
+     }
+     #texto-oferta2{
+    
+      margin-bottom: 30px; 
+     }
+     #texto-oferta2 h3{
+      font-size: 17px !important;  
+      color: #616A6B;
+     }
+
+      #contenedor1{
+      height: 200px;  
+     }
+     
+      #texto1{
+     width: 290px; 
+     margin: 0 auto; 
+     background: none;
+     }
+
+    #contenedor2{
+     height: 200px;
+    
+     }
+     #img1oferta{
+      margin-top: 5px; 
+      margin-bottom: 10px; 
+      width: 70px; 
+     }
+      #img1oferta2{
+      margin-top: 5px; 
+      margin-bottom: 10px; 
+      width: 110px; 
+     }
+     #img2oferta{
+      margin-top: -20px; 
+      margin-bottom: 10px; 
+      width: 70px; 
+     }
+      #img2oferta2{
+      margin-bottom: 10px; 
+      width: 100px; 
+      margin-top:20px;
+     }
+     #img3oferta{
+     margin-top: -20px !important;    
+     margin: 5px;
+     width: 80px; 
+     
+     }
+
+     #img3oferta2{
+     margin-top:30px !important;
+     width: 100px !important; 
+     
+     }
+     #texto2{
+     width: 290px; 
+     margin: 0 auto; 
+     background: green;
+     }
+     #contenedor3{
+     height: 200px !important;  
+     
+
+     }
+     
+     #texto3{
+     width: 290px !important; 
+     margin: 0 auto !important; 
+     background: none !important;
+     }
+    h1{
+        font-size: 20px !important;
+    }
+    h4{
+        font-size: 15px !important;
+    }
+
+    #oferta{
+        background-color: #2895f1 !important;
+    }
+    #contenedor-Caracteristicas{
+        background-color: #f12828 !important;
+        margin: 0px !important;
+        padding: 0px !important;
+
+    }
+    .container-fluid{
+        margin: 0 !important;
+    }
+   
+     #texto3{
+        width: 230px !important; 
+        margin: 0 auto !important; 
+        background: none !important;
+        }
+ 
+        #leyenda{
+           width: 500px !important;
+          margin: 0 auto !important;
+       }
+}
+
+
+*/

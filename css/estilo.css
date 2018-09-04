@@ -84,3 +84,7 @@ h1 span {
      animation-duration: 4s;
      animation-delay: 2s;
 }
+body{
+  background-color: none;
+  height: 2000px;
+}

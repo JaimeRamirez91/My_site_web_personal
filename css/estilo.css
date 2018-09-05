@@ -3,9 +3,7 @@
 base:http://dacdevs.com/;
 *7
 /*Vavbar logo*/
-body{
-  min-width: 450px;
-}
+
 .navbar{
   background: none;
  
@@ -87,4 +85,32 @@ h1 span {
 body{
   background-color: none;
   height: 2000px;
+}
+#cabesera1{
+              position: absolute; 
+              margin-top: auto;
+              margin-bottom: auto;
+              margin-left: auto;
+              margin-right: auto;
+              top: 0;
+              bottom:0;
+              left: 0;
+              right:0; 
+              background: none; 
+              height: 80px;
+}
+#contenedor-info{
+  border:solid 1px #E6E6E6; 
+  border-left: none; 
+  border-right: none;
+   border-bottom: none; 
+   height: 120px; 
+   position: relative;
+   background: none;
+}
+.divisor{
+  background-image: url("../img/divisor.png") ;
+  background-repeat: no-repeat; 
+  height: 75px;
+  margin:0 auto;
 }

@@ -235,7 +235,7 @@
           animation: escribir 20s steps(37) infinite alternate;
       }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 540px) and (max-width: 991px) {
     .navbar-nav {
         float:none;
         margin:0 auto;
@@ -360,7 +360,8 @@
             float: right;
          }       
 } 
-@media (max-width: 767px) {
+@media (min-width: 1px) and (max-width: 539px) {
+    body{background-color: none;}
     .navbar-nav {
         float:none !important;
         margin:0 auto !important;
@@ -450,26 +451,48 @@
     }
     #contenedor-texto-bener-lg{
         background-color: none;
+
     }
     #contenedor-tema{
             background-color: none;
+            text-align: center;
+    }
+    #contenedor-subtema,#contenedor-subtema h4{
+        background-color: none;
+        text-align: center;
+        width: 100%;
+        font-size: 14px;
+
     }
     #contenedor-tema h1{
-        
-            background-color: none;
-            font-size: 26px;
+            background-color:none;
+            font-size: 25px;
             text-align: center;
             font-family:  'Bold';
+            width: 80% !important;
+            margin: auto auto;
+            margin-top: 2%;
+            
         }
+    #leyenda{
+        background: #2895f1;
+        width: 10%;
+    }    
    #leyenda h4{
+       margin: 0;
+       padding: 0;
         background-color: none;
-        font-size: 18px;
+        font-size: 14px;
         text-align: center;
+        width: 60%  !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
       
     }
     #botones-leyenda{
        background-color: none;
-       width: 80%;
+       width: 82% !important;;
        margin: 0 auto;
     } 
     #botones-leyenda #btn-contacar{
@@ -477,7 +500,7 @@
      } 
      #botones-leyenda #btn-info{
         float: right;
-     }       
-    
+     }
+          
    
 }

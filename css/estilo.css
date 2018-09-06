@@ -114,3 +114,40 @@ body{
   height: 75px;
   margin:0 auto;
 }
+.spnanColor{
+  background:rgb(40, 149, 241);
+}
+#contenedor_contact{
+  float: right; background: none; 
+  height:60px;
+  width: 104px; 
+  margin-top: 10px; 
+  background: none;
+}
+#btn_contato{
+  margin-top: 13px;
+}
+#contenedor-img-float{
+  float: left;
+   margin-top: 10px;
+}
+#img-cnt{
+  background: none;
+   height:60px; 
+   width: 90px;
+}
+#nosotros{
+
+  background-color: red;
+  height: 500px;
+}
+#servicios{
+ 
+  background-color: rgb(8, 49, 138);
+  height: 500px;
+}
+#contacto{
+ 
+  background-color: rgb(255, 0, 212);
+  height: 500px;
+}

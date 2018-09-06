@@ -42,4 +42,42 @@ $(document).ready(function(){
     }
 
     });
-   
+
+    $("#lihome").on("click", function (Evento) {
+        Evento.preventDefault();
+        $('html,body').animate({
+            scrollTop: $("#jumbotron").offset().top 
+        }, 500);
+    });
+    $("#linosotros").on("click", function (Evento) {
+        Evento.preventDefault();
+        $('html,body').animate({
+            scrollTop: $("#nosotros").offset().top-100
+        }, 500);
+    });
+    $("#liservivios").on("click", function (Evento) {
+        Evento.preventDefault();
+        $('html,body').animate({
+            scrollTop: $("#servicios").offset().top-100
+        }, 500);
+    });
+    $("#liservivios").on("click", function (Evento) {
+        Evento.preventDefault();
+        $('html,body').animate({
+            scrollTop: $("#servicios").offset().top-100
+        }, 500);
+    }); 
+    $("#licontacto").on("click", function (Evento) {
+        Evento.preventDefault();
+        $('html,body').animate({
+            scrollTop: $("#contacto").offset().top-100
+        }, 500);
+    });        
+// ocultar collapse del menu para moviles de bootstrap en caso que quede abierto al cambiar de tamaño
+$(window).resize(function(){
+    if ($(window).width() <= 900) {  
+        if ($('.collapse').is(':visible')) {
+            $('.collapse').collapse('hide');
+        }
+    }
+});
